@@ -1,13 +1,12 @@
 import React from 'react'
 
-export const text = ({id, name}, props) => {
-  console.log(props)
+export const Email = ({ type, children, defaultValue, name }) => {
   return (
     <div>
-      <label>email</label>
+      <label>Email</label>
       <input id={`quickform-${name}`} type={name} />
     </div>
   )
 }
 
-export default text
+export default Email
