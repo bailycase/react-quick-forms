@@ -1,13 +1,17 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-import ExampleComponent from 'react-quick-forms'
+import {Form, Field} from 'react-quick-forms'
 
-export default class App extends Component {
-  render () {
+const App = () => {
     return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
-      </div>
+        <Form defaultValues={{
+        }}>
+          <Field type='text'>Input Name</Field>
+          <Field type='email'>Input Name</Field>
+        </Form>
     )
   }
-}
+
+
+
+export default App

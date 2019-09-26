@@ -1,11 +1,4 @@
-import React from 'react'
+import Form from './Form'
+import Field from './FieldTypes'
 
-const Form = () => {
-  return (
-    <form>
-      <h1>Form Header</h1>
-    </form>
-  )
-}
-
-export default Form
+export {Form, Field}
