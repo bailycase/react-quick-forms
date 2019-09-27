@@ -2,8 +2,9 @@ import React from 'react'
 import Text from './Text'
 import Email from './Email'
 
-// assign which field to use  on the field name supplied, then return default prop values
-
+/*
+  Register fields with context
+*/
 const CustomFields = {
   text: Text,
   email: Email
